@@ -60,5 +60,11 @@ namespace E_dnevnik
             Form forma = new Upisnica();
             forma.ShowDialog();
         }
+
+        private void ocenaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form forma = new Ocena();
+            forma.ShowDialog();
+        }
     }
 }
